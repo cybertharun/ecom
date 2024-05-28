@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Successfull</title>
+</head>
+<style>
+    h1{
+        background-color: yellowgreen;
+        color: whitesmoke;
+    }
+    .order{
+        background-color: yellowgreen;
+        color: black;
+        margin-left: 700px;
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    .order:hover{
+        background-color: whitesmoke;
+        color: yellowgreen;
+    }
+    .number{
+        display: flex;
+        justify-content: center;
+        margin-left: 500px;
+        height: 50px;
+        width: 400px;
+        font-size: 20px;
+        border-radius: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .name{
+        display: flex;
+        justify-content: center;
+        margin-left: 500px;
+        height: 50px;
+        width: 400px;
+        font-size: 20px;
+        border-radius: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .address{
+       display: flex;
+       justify-content: center;
+       margin-left: 200px;
+       height: 50px;
+       width: 1000px;
+       font-size: 20px;
+       border-radius: 20px;
+       text-align: center;
+    }
+    .submit{
+        display: flex;
+        justify-content: center;
+        margin-left: 600px;
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+        border-radius: 20px;
+        text-align: center;
+        margin-bottom: 50px;
+        cursor: pointer;
+    }
+    .submit:hover{
+        background-color: yellowgreen;
+        color: whitesmoke;
+    }
+    @media screen and (min-width:1201px){
+        .submit{
+            margin-left: 490px;
+           }
+        .address{
+         margin-left: 205px;
+         width: 750px;
+        }
+        .name{
+            margin-left: 390px;
+           }
+           .number{
+            margin-left: 390px;
+           }
+     }
+    @media screen and (max-width:1200px){
+        .name{
+         margin-left: 350px;
+        }
+        .submit{
+         margin-left: 450px;
+        }
+        .address{
+         margin-left: 215px;
+         width: 650px;
+        }
+        .number{
+         margin-left: 350px;
+        }
+     }
+    @media screen and (max-width:1100px){
+        .name{
+         margin-left: 300px;
+        }
+        .submit{
+         margin-left: 400px;
+        }
+        .address{
+         margin-left: 185px;
+         width: 600px;
+        }
+        .number{
+         margin-left: 300px;
+        }
+     }
+    @media screen and (max-width:1000px){
+        .name{
+         margin-left: 250px;
+        }
+        .submit{
+         margin-left: 350px;
+        }
+        .address{
+         margin-left: 150px;
+         width: 570px;
+        }
+        .number{
+         margin-left: 250px;
+        }
+     }
+    @media screen and (max-width:900px){
+        .name{
+         margin-left: 200px;
+        }
+        .submit{
+         margin-left: 300px;
+        }
+        .address{
+         margin-left: 120px;
+         width: 540px;
+        }
+        .number{
+         margin-left: 200px;
+        }
+     }
+     @media screen and (max-width:800px){
+        .name{
+         margin-left: 150px;
+        }
+        .submit{
+         margin-left: 250px;
+        }
+        .address{
+         margin-left: 88px;
+         width: 510px;
+        }
+        .number{
+         margin-left: 150px;
+        }
+     }
+     @media screen and (max-width:700px){
+        .name{
+         margin-left: 60px;
+        }
+        .submit{
+         margin-left: 160px;
+        }
+        .address{
+         margin-left: 7px;
+         width: 490px;
+        }
+        .number{
+         margin-left: 60px;
+        }
+     }
+     @media screen and (max-width:600px){
+        .name{
+         margin-left: 50px;
+        }
+        .submit{
+         margin-left: 140px;
+        }
+        .address{
+         margin-left: 18px;
+         width: 460px;
+        }
+        .number{
+         margin-left: 50px;
+        }
+     }
+    @media screen and (max-width:500px){
+       .name{
+        margin-left: 20px;
+       }
+       .submit{
+        margin-left: 110px;
+       }
+       .address{
+        margin-left: 0px;
+        width: 430px;
+       }
+       .number{
+        margin-left: 20px;
+       }
+    }
+   
+     
+    
+    
+</style>
+<body>
+    <form action="project1.html" method="GET">
+    <h1 align="center">Your item is added to cart successfully</h1>
+    <div class="tha">
+    <input type="name" placeholder="Enter your name" class="name" required>
+    <input type="number" placeholder="Mobile number" class="number" required>
+    <input type="text" placeholder="Enter your address" class="address" required>
+    <br>
+    <input type="submit" value="place your order" class="submit">
+    <div>
+    </form>
+</body>
+</html>

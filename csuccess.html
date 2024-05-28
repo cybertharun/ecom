@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message reached page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<style>
+    body{
+        background-color:  #393232;;
+        color: whitesmoke;
+        font-family: "Comic Sans MS",sans-serif;
+        margin-top: 50px;
+        margin-right: 200px;
+        font-size: 20px;
+    }
+    .c1{
+        margin-top: 10px;  
+    }
+    .c2{
+      margin-left: 650px;
+      padding: 20px;
+    }
+    .submit{
+        margin-top: 20px;
+        margin-left: 50px;
+        background-color: yellowgreen;
+        color: white;
+        border: 2px outset black;
+    }
+    .submit:hover{
+        background-color: white;
+        color: yellowgreen;
+        border: 2px inset grey;
+        position: inherit;
+    }
+    .im{
+        width: 600px;
+        height: 500px;
+        margin-bottom: 200px;
+    }
+    .flexy{
+        display: flex;
+        justify-content: center;
+    }
+    .lin{
+        margin-left: 130px;
+    }
+    @media screen and (max-width:500px){
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .im{
+            width: 200px;
+            height: 150px;
+            margin-left: 120px;
+            position: absolute;
+            
+        }
+        .c1{
+            margin-top: 250px;   
+        }
+
+    }
+    @media screen and (max-width:600px){
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .im{
+            width: 200px;
+            height: 150px;
+            margin-left: 140px;
+            position: absolute;
+            
+        }
+        .c1{
+            margin-top: 250px;   
+        }
+
+    }
+   
+    @media screen and (max-width:700px){
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .im{
+            width: 220px;
+            height: 150px;
+            margin-left: 140px;
+            position: absolute;
+            
+        }
+        .c1{
+            margin-top: 250px;   
+        }
+
+    }
+    @media screen and (max-width:800px){
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .im{
+            width: 240px;
+            height: 190px;
+            margin-left: 120px;
+            position: absolute;
+            
+        }
+        .c1{
+            margin-top: 250px;   
+        }
+
+    }
+    @media screen and (min-width:801px){
+        .im{
+            width: 340px;
+            height: 340px;
+            margin-left: 0px;
+            position: absolute;
+            margin-top: 150px;
+            
+        }
+        .c1{
+            margin-top: 0px;
+            margin-left: 200px;   
+            
+        }
+    }
+  
+   
+    
+   
+    
+</style>
+<body>
+    <form action="index.html" method="GET">
+        <div class="flexy">
+        <div><h1><i class="fa-solid  fa-fade"><img src="cbr.jpg.png" class="im"></i></h1></div>
+        <div class="c1">
+   <h3 align="center">Your issue will be sorted within a week </h3> 
+   <h5 align="center">Thank you for shopping with C.B.R Clothes.</h5>
+   <h5 align="center">Have a nice day !</h5>
+   
+   <h2 align="center">Please Enter your feedback</h2>
+   <h4 align="center">1. Excellent</h4>
+   <h4 align="center">2. Very good</h4>
+   <h4 align="center">3. Good</h4>
+   <h4 align="center">4. Bad</h4>
+   <h4 align="center">5. Very bad</h4>
+   <div class="lin">
+    <label for="1">1</label>
+   <input type="radio" value="1" id="1" name="feedback" required>
+   <label for="2">2</label>
+   <input type="radio" value="2" id="2" name="feedback" required>
+   <label for="2">3</label>
+   <input type="radio" value="3" id="3" name="feedback" required>
+   <label for="2">4</label>
+   <input type="radio" value="4" id="4" name="feedback" required>
+   <label for="2">5</label>
+   <input type="radio" value="5" id="5" name="feedback" required>
+   <br>
+   <input type="submit" value="Go to home" class="submit">
+   </div>
+   </div>
+   </div>
+   </form>
+</body>
+</html>
